@@ -9,10 +9,11 @@ I build RAG assistants, LangGraph agents and MCP servers for data centre operati
 
 ## What I'm building
 
-Three connected projects for data centre operations:
+Multimodal, RAG, agent and MCP projects. The three DC-Ops projects connect into one data centre operations platform.
 
 | Project | What it does | Stack |
 | --- | --- | --- |
+| [**VisionDesk AI**](https://github.com/Praveenasuku/AI-VisionDesk-2) | Multimodal safety assistant: a fine-tuned YOLO11 model spots missing PPE in photos and video, and a LangGraph agent cites the safety-manual rule each violation breaks. KPI dashboard and PDF compliance reports. | YOLO11, LangGraph, ChromaDB, Gemini, Streamlit |
 | [**DC-Ops Copilot**](https://github.com/Praveenasuku/dc-ops-copilot) | Production RAG assistant that answers ops questions from runbooks, SOPs and incident reports, with citations. Hybrid search, cross-encoder reranking, refusal guardrail, RAGAS evaluation on a 30-question golden set. | LangChain, Qdrant, FastAPI, RAGAS, Langfuse, Docker, AWS |
 | [**EnergyGuard**](https://github.com/Praveenasuku/energyguard) | LangGraph agent that extracts electricity bill fields, flags anomalies and forecasts spend, with human approval and checkpointing. | LangGraph, Pydantic, ARIMA, FastAPI |
 | [**DC-Ops MCP Server**](https://github.com/Praveenasuku/dc-ops-mcp-server) | MCP server exposing a PostgreSQL ops database, the RAG assistant and the agent as tools. Read-only SQL guardrails, text-to-SQL evaluated on 40 questions. | MCP, PostgreSQL, Docker Compose |
@@ -29,6 +30,7 @@ Three connected projects for data centre operations:
 - **Generative AI and LLMs:** OpenAI GPT-4, Google Gemini, Anthropic Claude, prompt engineering, structured outputs
 - **Agentic AI:** LangChain, LangGraph, Model Context Protocol (MCP), tool calling, human-in-the-loop
 - **RAG and vector databases:** Qdrant, ChromaDB, Pinecone, Hugging Face embeddings, hybrid search, reranking
+- **Computer vision:** YOLO11 (Ultralytics), OpenCV, multimodal RAG
 - **Evaluation and observability:** RAGAS, Langfuse, LLM evaluation, guardrails
 - **Backend and deployment:** Python, SQL, FastAPI, Flask, Streamlit, PostgreSQL, Docker, AWS (EC2, S3), GitHub Actions
 - **Data and ML:** pandas, NumPy, scikit-learn, XGBoost, ARIMA forecasting, Power BI, Tableau
