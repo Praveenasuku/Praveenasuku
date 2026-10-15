@@ -33,6 +33,16 @@ Three connected projects for data centre operations:
 - **Backend and deployment:** Python, SQL, FastAPI, Flask, Streamlit, PostgreSQL, Docker, AWS (EC2, S3), GitHub Actions
 - **Data and ML:** pandas, NumPy, scikit-learn, XGBoost, ARIMA forecasting, Power BI, Tableau
 
+## Machine learning and analytics projects
+
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [**Predictive Maintenance System**](https://github.com/Praveenasuku/Predictive-Maintenance-System) | Predicts machine failures on 10,000 machines with 94% precision and 87% recall, served by an API that explains each alert. | scikit-learn, FastAPI, Docker |
+| [**Portfolio Optimization Command Center**](https://github.com/Praveenasuku/Portfolio-Optimization-Command-Center) | Max Sharpe, min variance and risk parity portfolios with a walk-forward backtest and live NSE prices. | SciPy, Streamlit, yfinance |
+| [**Real Estate Market Analysis**](https://github.com/Praveenasuku/Real-Estate-Market-Analysis-) | 20,640 districts: location premium at equal income, and a valuation model tested on areas it never saw. | scikit-learn, Streamlit, Plotly |
+| [**Sports Analytics Dashboard**](https://github.com/Praveenasuku/Sports-Analytics-Dashboard) | 63,157 NBA games: how accurate Elo forecasts are, the decline of home-court advantage, greatest teams. | pandas, Streamlit, Plotly |
+| [**Chennai House Price Estimator**](https://github.com/Praveenasuku/Chennai-Housing-Price-Flask_App) | Flask web app and JSON API with calibrated price ranges (trained on synthetic data). | Flask, scikit-learn, Docker |
+
 ## Earlier work
 
 - [**Portfolio Optimization**](https://github.com/Praveenasuku/Portfolio-Optimization): efficient frontier on 49 NSE stocks, plus clustering and PCA.
